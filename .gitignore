@@ -1,0 +1,17 @@
+# Maven
+target/
+*.iml
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# IntelliJ
+.idea/
+*.iws
+*.ipr
+
+# Operating System
+.DS_Store
+Thumbs.db
