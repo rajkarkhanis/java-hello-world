@@ -34,7 +34,7 @@ jobs:
       run: mvn --batch-mode --update-snapshots verify
 
     - name: Create directory for storing artifacts
-      run: mkdir artifacts && cp target/* artifacts
+      run: mkdir artifacts && cp -r target/* artifacts
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
